@@ -1,6 +1,5 @@
 import discord
 import asyncio
-from secretcode import *
 from discord.ext import commands
 from discord.utils import get
 
@@ -84,4 +83,4 @@ async def ban(ctx):
         'I\'ve said it once and I\'ll say it again, we should ban Juru')
 
 
-bot.run(secret_code)
+bot.run(SCHNURBLE_CODE)
