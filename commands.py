@@ -42,7 +42,7 @@ async def boop(ctx):
 @bot.command()
 @commands.has_role('Schnurble')
 async def say(ctx, arg):
-    await ctx.message.delete()
+    ctx.message.delete()
     await ctx.send(arg)
 
 
@@ -50,7 +50,7 @@ async def say(ctx, arg):
 @commands.has_role('Schnurble')
 async def intro(ctx):
     person = '<@268883249151868928>'
-    await ctx.message.delete()
+    ctx.message.delete()
     await ctx.send("""Name/What to call me - Schnurble
 Pronouns - He/They
 Age - yes
