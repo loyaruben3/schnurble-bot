@@ -80,7 +80,7 @@ async def ban(ctx):
     async with ctx.typing():
         await asyncio.sleep(5)
     await ctx.send(
-        'I\'ve said it once and I\'ll say it again, we should ban Juru')
+        'I\'ve said it once and I\'ll say it again, we should ban Ari')
 
 
 bot.run(SCHNURBLE_CODE)
